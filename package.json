@@ -13,7 +13,7 @@
     "uspsParallelCB": "npx playwright test src/test/Day3_120225/T1_USPS_Multiple_Tests.spec.ts --headed --workers=4 --project=chromium --project=firefox --reporter=html",
     "weightWatchersCB": "npx playwright test src/test/Homework/AI_1.spec.ts --headed --workers=3 --project=chromium --project=firefox --project=webkit --reporter=html",
     "bingReusable": "npx playwright test src/test/Day4_120825/bing_search_reusable.spec.ts --workers=1 --project=chromium --reporter=html",
-    "allTests": "npx playwright test src/test/*.spec.ts --workers=1 --project=chromium --reporter=html"
+    "allTests": "npx playwright test src/test/* --workers=1 --project=chromium --reporter=html"
 
 
 
